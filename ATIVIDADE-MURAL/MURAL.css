@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+
+}
+
+.recado {
+    width: 350px;
+    margin: 0;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(255, 139, 139);
+}
+
+.recado label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.recado input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.recado button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.perfil {
+    width: 350px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(168, 120, 120);
+}

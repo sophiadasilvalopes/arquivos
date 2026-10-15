@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 22-09</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<style>
+
+</style>
+
+   
+<body>
+    
+    
+    <h1>Aula DOM</h1><!--Document Object Model-->
+    <p id="p1"></p>
+    <img src="https://picsium.photos/200" alt="Imagem aleatória">
+    <img id="im2">
+    <p id="p2" class="estilo_p2"></p>
+
+ <script>
+    let paragrafo = document.getElementyid("p1");
+    console.log(paragrafo);
+    paragrafo.innerText = "Aula DOM - Alterando o texto do parágrafo";
+    let imagem2 = document.getElementById("img2");
+    imagem2.src = "https://picsum.photos/200";
+    let paragrafo2 = document.querySelector("#p2");
+    paragrafo2.innerHTML = "<strong> Parágrafo 2</strong> - Alterando o texto do parágrafo2";
+    //Atividade: criar uma estrutura HTML estilizando o seu perfil e utilizar o script para modificar os valores do perfil dinamicamente.
+    //HTML - estrutura básica do perfil
+    //CSS - estilizando o perfil
+    //JS - script para modificar os valores do perfil dinamicamente
+        
+    </script>
+</body>
+</html>
